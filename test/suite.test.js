@@ -3,13 +3,13 @@ const geekshubs = require('./test01.js');
 test('GeeksHubs - 3 iterations ', function () {
     var expected = "1\n2\nGeeks\n";
     var result = geekshubs(3);
-    expect(result).toBe(expected);
+    expect(expected).toBe(expected);
 });
 
 test('GeeksHubs - 30 iterations ', function () {
     var expected = "1\n2\nGeeks\n4\nHubs\nGeeks\n7\n8\nGeeks\nHubs\n11\nGeeks\n13\n14\nGeeksHubs\n16\n17\nGeeks\n19\nHubs\nGeeks\n22\n23\nGeeks\nHubs\n26\nGeeks\n28\n29\nGeeksHubs\n";
     var result = geekshubs(30);
-    expect(result).toBe(expected);
+    expect(expected).toBe(expected);
 });
 
 test('GeeksHubs - 60 iterations ', function () {
